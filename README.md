@@ -1,3 +1,3 @@
-#Description of the project
-##Developer: Mauro Duque Montemayor
+# Description of the project
+## Developer: Mauro Duque Montemayor
 
