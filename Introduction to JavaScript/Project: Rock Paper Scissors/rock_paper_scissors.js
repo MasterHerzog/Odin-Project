@@ -58,9 +58,7 @@ function playRound(playerSelection, computerSelection) {
 function playGame(){
     let score = 0;
     let result = "";
-    console.log("The Game Started!!!!");
     for(let i = 0; i <= 5; i++){
-        console.log("Match #" + i+1);
         result = playRound(getPlayerChoice(), getComputerChoice())
         console.log(result);
         if(result.match(/won/i)?.input){
